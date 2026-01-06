@@ -29,9 +29,16 @@ jobs:
           
           # 1. As Linguagens (Barra colorida)
           plugin_languages: yes
-          plugin_languages_ignored: html, css # (Opcional) Ignora linguagens de marcação se quiseres focar em lógica
+          # Aumenta o limite para 15 (para garantir que as tuas 11 aparecem todas)
+          plugin_languages_limit: 15
           
-          # 2. O Calendário 3D
+          # Define que linguagens pequenas (mesmo com 0%) devem aparecer
+          plugin_languages_threshold: 0%
+          
+         
+          plugin_languages_details: percentage, lines
+          
+          
           plugin_isocalendar: yes
           plugin_isocalendar_duration: half-year
           
