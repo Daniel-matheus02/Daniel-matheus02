@@ -8,7 +8,6 @@
   </a>
   
   <br>
-
   <a href="https://www.linkedin.com/in/SEU-USUARIO" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank" />
   </a>
@@ -16,14 +15,10 @@
     <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" target="_blank" />
   </a>
 </div>
-
 <br>
-
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0d1117,100:2e3440&height=45&text=Neural%20Stack&fontSize=25&fontColor=ffffff&fontAlign=50&font=Fira%20Code" width="100%" />
-  
   <br><br>
-
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
   <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" />
   <img src="https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=keras&logoColor=white" />
@@ -33,32 +28,25 @@
   <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
   <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
   <img src="https://img.shields.io/badge/Google_Colab-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=white" />
-
 </div>
-
 <br>
-
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0d1117,100:2e3440&height=45&text=AI%20Labs%20%26%20Notebooks&fontSize=25&fontColor=ffffff&fontAlign=50&font=Fira%20Code" width="100%" />
-
   <br><br>
-
   <table border="0" width="100%">
     <tr>
       <td width="50%" align="center" valign="top">
         <h3 style="color: #c9d1d9; font-family: 'Fira Code', monospace;">📸 Facial Recognition</h3>
-        
         <p align="center" style="color: #8b949e;">
           Deep Learning com <b>MobileNetV2</b>.<br>
-          Treino de modelos CNN por 200 épocas.
+          Treino de modelos CNN.
         </p>
         <a href="https://colab.research.google.com/github/Daniel-matheus02/I.A/blob/main/El%20Classificadora%20de%20imagens.ipynb" target="_blank">
           <img src="https://img.shields.io/badge/Open_In_Colab-555555?style=flat-square&logo=googlecolab&logoColor=white" />
         </a>
       </td>
       <td width="50%" align="center" valign="top">
-        <h3 style="color: #c9d1d9; font-family: 'Fira Code', monospace;">📈 Market Prophet</h3>
-        
+        <h3 style="color: #c9d1d9; font-family: 'Fira Code', monospace;">📈 Market Prophet</h>
         <p align="center" style="color: #8b949e;">
            Time Series Forecasting.<br>
            Engenharia de dados financeiros com Prophet.
