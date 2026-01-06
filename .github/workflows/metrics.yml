@@ -1,8 +1,6 @@
 name: Metrics
 on:
-  # Atualiza todos os dias à meia-noite
   schedule: [{cron: "0 0 * * *"}]
-  # Permite rodar manualmente
   workflow_dispatch:
   push: {branches: ["master", "main"]}
 jobs:
@@ -17,30 +15,15 @@ jobs:
           user: Daniel-matheus02
           template: classic
           
-          # --- LIMPEZA DOS ZEROS ---
-          # Removi 'activity' e 'community' (onde estavam os zeros).
-          # Deixei 'header' (teu nome) e 'repositories' (resumo dos repos).
+          # BASE: Apenas info essencial (cabeçalho e repositórios)
           base: header, repositories
-          
-          # Esconde dados específicos que costumam vir zerados ou ser técnicos demais
           config_display: regular
           
-          # --- O QUE MANTIVEMOS ---
-          
-          # 1. As Linguagens (Barra colorida)
+          # LINGUAGENS: Configuração para mostrar TODAS as 11
           plugin_languages: yes
-          # Aumenta o limite para 15 (para garantir que as tuas 11 aparecem todas)
           plugin_languages_limit: 15
-          
-          # Define que linguagens pequenas (mesmo com 0%) devem aparecer
           plugin_languages_threshold: 0%
           
-         
-          plugin_languages_details: percentage, lines
-          
-          
+          # CALENDÁRIO 3D
           plugin_isocalendar: yes
           plugin_isocalendar_duration: half-year
-          
-          # --- O QUE REMOVEMOS ---
-          # Removi o 'plugin_habits' que estava a dar o "Unexpected error".
