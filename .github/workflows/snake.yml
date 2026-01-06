@@ -1,1 +1,49 @@
+# Nome da Automação
+name: Generate Snake Game
 
+# Quando vai rodar?
+on:
+  # Roda automaticamente a cada 24 horas
+  schedule:
+    - cron: "0 0 * * *" 
+  
+  # Permite rodar manualmente na aba "Actions" para testar
+  workflow_dispatch:
+  
+  # Roda sempre que você fizer um push na branch master/main
+  push:
+    branches:
+    - master
+    - main
+
+# O Trabalho a ser feito
+jobs:
+  generate:
+    permissions: 
+      contents: write
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    
+    steps:
+      # Passo 1: O robô baixa seu código
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      # Passo 2: O robô joga o jogo e gera o arquivo SVG
+      - name: Generate Snake SVG
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: Daniel-matheus02
+          # Aqui definimos as cores "Stealth" (Do preto ao cinza chumbo)
+          outputs: |
+            dist/github-contribution-grid-snake.svg?color_snake=white&color_dots=#161b22,#0e4429,#006d32,#26a641,#39d353
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+
+      # Passo 3: O robô publica o SVG numa branch chamada "output"
+      - name: Push SVG to Output Branch
+        uses: crazy-max/ghaction-github-pages@v3.1.0
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
