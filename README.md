@@ -10,7 +10,7 @@
   
   <br>
 
-  <a href="https://www.linkedin.com/in/SEU-USUARIO" target="_blank">
+  <a href="https://www.linkedin.com/in/daniel-a-matheus/" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank" />
   </a>
   <a href="mailto:SEU-EMAIL@gmail.com">
@@ -48,7 +48,7 @@
     <tr>
       <td width="50%" valign="top" style="border: none;">
         <a href="https://colab.research.google.com/github/Daniel-matheus02/I.A/blob/main/El%20Classificadora%20de%20imagens.ipynb" target="_blank">
-          <img src="./assets/ladin proj2.png" width="100%" style="border-radius: 12px; box-shadow: 0px 4px 20px rgba(0,0,0,0.5);" alt="Facial Recognition Preview" />
+          <img src="./ladin proj2.png" width="100%" style="border-radius: 12px; box-shadow: 0px 4px 20px rgba(0,0,0,0.5);" alt="Facial Recognition Preview" />
         </a>
         <br><br>
         <div align="left">
@@ -67,7 +67,7 @@
       </td>
       <td width="50%" valign="top" style="border: none;">
         <a href="https://colab.research.google.com/github/Daniel-matheus02/I.A/blob/main/An%C3%A1lise%20de%20A%C3%A7%C3%B5es.ipynb" target="_blank">
-          <img src="./assets/ladin proj1.png" width="100%" style="border-radius: 12px; box-shadow: 0px 4px 20px rgba(0,0,0,0.5);" alt="Market Prophet Preview" />
+          <img src="./ladin proj1.png" width="100%" style="border-radius: 12px; box-shadow: 0px 4px 20px rgba(0,0,0,0.5);" alt="Market Prophet Preview" />
         </a>
         <br><br>
         <div align="left">
