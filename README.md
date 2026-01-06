@@ -25,42 +25,37 @@
 </div>
 
 <br>
-
 <h3 align="center">🧪 AI Experiments & Notebooks</h3>
 <div align="center">
-  <table border="0" width="90%">
-    <tr>
-      <td width="50%" align="center" valign="top">
-        <img src="https://img.shields.io/badge/Computer_Vision-MobileNetV2-blue?style=flat-square" />
-        <br><br>
-        <b>📸 Facial Recognition System</b>
-        <br>
-        <p align="left" style="font-size: 14px;">
-          Modelo de Deep Learning treinado por 200 épocas utilizando <b>Transfer Learning</b> na arquitetura MobileNetV2. Capaz de identificar faces independente da iluminação ou período.
-        </p>
-        <a href="https://colab.research.google.com/github/Daniel-matheus02/I.A/blob/main/El%20Classificadora%20de%20imagens.ipynb" target="_blank">
-          <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
-        </a>
-      </td>
-      
-      <td width="50%" align="center" valign="top">
-        <img src="https://img.shields.io/badge/Time_Series-Facebook_Prophet-blueviolet?style=flat-square" />
-        <br><br>
-        <b>📈 Stock Market Forecasting</b>
-        <br>
-        <p align="left" style="font-size: 14px;">
-          Pipeline completo de Engenharia de Dados financeiros. Coleta via <code>yfinance</code>, processamento com Pandas e projeção futura de ativos utilizando o modelo aditivo <b>Prophet</b>.
-        </p>
-        <a href="https://colab.research.google.com/github/Daniel-matheus02/I.A/blob/main/An%C3%A1lise%20de%20A%C3%A7%C3%B5es.ipynb" target="_blank">
-          <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
-        </a>
-      </td>
-    </tr>
-  </table>
-</div>
-
+<table border="0" width="100%">
+<tr>
+<td width="50%" align="center" valign="top">
+<img src="https://img.shields.io/badge/Computer_Vision-MobileNetV2-blue?style=flat-square" />
 <br>
-
+<b>📸 Facial Recognition System</b>
+<br>
+<p align="center" style="font-size: 14px;">
+Modelo treinado por 200 épocas com <b>Transfer Learning</b> (MobileNetV2). Identifica faces independente da iluminação.
+</p>
+<a href="https://colab.research.google.com/github/Daniel-matheus02/I.A/blob/main/El%20Classificadora%20de%20imagens.ipynb" target="_blank">
+<img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
+</a>
+</td>
+<td width="50%" align="center" valign="top">
+<img src="https://img.shields.io/badge/Time_Series-Facebook_Prophet-blueviolet?style=flat-square" />
+<br><br>
+<b>📈 Stock Market Forecasting</b>
+<br>
+<p align="center" style="font-size: 14px;">
+Engenharia de Dados completa. Coleta via <code>yfinance</code>, Pandas e projeção futura de ativos com modelo <b>Prophet</b>.
+</p>
+<a href="https://colab.research.google.com/github/Daniel-matheus02/I.A/blob/main/An%C3%A1lise%20de%20A%C3%A7%C3%B5es.ipynb" target="_blank">
+<img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
+</a>
+</td>
+</tr>
+</table>
+</div>
 <div align="center">
   <table border="0">
     <tr>
