@@ -1,4 +1,13 @@
 <div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=300&section=header&text=DANIEL%20A.%20MATHEUS&fontSize=70&animation=fadeIn&fontAlignY=35&desc=AI%20Engineer%20%7C%20Computer%20Vision%20%7C%20Go%20Dev&descAlignY=55&descSize=20&descAlign=50&color=0:0d1117,100:7000ff" width="100%"/>
+</div>
+
+<div align="center">
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=24&pause=1000&color=A960FF&center=true&vCenter=true&width=500&lines=Building+Neural+Networks;Go+Backend+Specialist;Architecting+Scalable+Systems;Exploring+the+Void..." alt="Typing SVG" />
+  </a>
+</div>
+<div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0d1117&height=280&section=header&text=DANIEL%20A.%20MATHEUS&fontSize=70&fontColor=F9AB00&animation=fadeIn&fontAlignY=35&desc=Computer%20Engineering%20%7C%20AI%20Research%20%7C%20Golang%20Backend&descAlignY=55&descSize=20&descAlign=50" width="100%"/>
 </div>
 
